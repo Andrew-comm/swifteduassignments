@@ -1,0 +1,63 @@
+.services {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+  }
+  
+  .serviceList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .service {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .service:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  .service p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      padding: 2rem 1rem;
+    }
+  
+    .services h2 {
+      font-size: 2rem;
+    }
+  
+    .serviceList {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

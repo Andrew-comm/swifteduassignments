@@ -1,0 +1,56 @@
+.carouselSection {
+    padding: 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .serviceSlide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+  }
+  
+  .serviceSlide img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 500px;
+  }
+  
+  .serviceInfo {
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background for readability */
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .serviceInfo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .serviceInfo p {
+    font-size: 1rem;
+  }
+  
+  .slick-dots li button:before {
+    color: #007bff;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .serviceInfo {
+      font-size: 0.9rem;
+    }
+  
+    .serviceInfo h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
